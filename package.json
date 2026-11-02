@@ -1,0 +1,24 @@
+{
+  "name": "xp-skill",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Leandro Barros <ingleandrobarros@outlook.com>",
+  "license": "GPLv3",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.16.1",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.16.1",
+  "type": "module",
+  "dependencies": {
+    "@fission-ai/openspec": "^1.16.0"
+  }
+}
