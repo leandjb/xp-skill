@@ -127,15 +127,7 @@ dist
 
 # pnpm
 .pnpm-store
-
-# yarn v3
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+pnpm-lock.yaml
 
 # Vite files
 vite.config.js.timestamp-*
@@ -147,3 +139,11 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Harness
+.claude/
+.opencode/
+.freebuff/
+.command-code/
+
+
